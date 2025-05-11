@@ -1,10 +1,9 @@
-import 'dart:io';
 void main() {
-  int rows = 5;
-  for (int i = 1; i <= rows; i++) {
-    for (int j = 1; j <= i; j++) {
-      stdout.write("$i");
+  List<int> num = [23, 44, 54, 2, 88, 7, 90, 1, 10];
+  print("THE UPDATED LIST OF GRAETER THAN FIVE");
+  for (int i = 0; i < num.length; i++) {
+    if (num[i] > 5) {
+      print(num[i]);
     }
-    print("");
   }
 }
