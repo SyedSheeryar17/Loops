@@ -1,12 +1,8 @@
 void main() {
-  List number = [10, 20, 30, 40, 50];
-  double sum = 0;
-  int index = 0;
+  int i = 1;
+  print("ODD NUMBERS IN 1 TO 20 IS");
   do {
-    sum += number[index];
-    index++;
-  } while (index < number.length);
-  print("THE TOTAL SUM IS $sum");
-  double average = sum / number.length;
-  print("THE AVERAGAE IS $average");
+    print("$i");
+    i += 2;
+  } while (i <= 20);
 }
